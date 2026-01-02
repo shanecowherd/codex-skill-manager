@@ -5,14 +5,15 @@ between the enabled skills folder and a disabled folder.
 
 ## Install (Codex)
 
-### With the Codex skill installer (recommended)
+### With Codex (recommended)
 
-```bash
-python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
-  --url https://github.com/shanecowherd/codex-skill-manager/tree/main/codex-skill-manager
+In Codex, use the `skill-installer` and provide this URL:
+
+```
+https://github.com/shanecowherd/codex-skill-manager/tree/main/codex-skill-manager
 ```
 
-This installs into `~/.codex/skills/codex-skill-manager`. Restart Codex after installation.
+Codex will install into `~/.codex/skills/codex-skill-manager`. Restart Codex after installation.
 
 ### Manual install (Codex)
 
