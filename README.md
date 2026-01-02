@@ -3,25 +3,24 @@
 A Codex skill that helps you list, disable, and enable other Codex skills by moving them
 between the enabled skills folder and a disabled folder.
 
-## Install
+## Install (Codex)
 
-### From GitHub (recommended)
-
-Use the skill installer from your Codex home:
+### With the Codex skill installer (recommended)
 
 ```bash
 python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
-  --repo <owner>/<repo> \
-  --path codex-skill-manager
+  --url https://github.com/shanecowherd/codex-skill-manager/tree/main/codex-skill-manager
 ```
 
-This installs into `~/.codex/skills/codex-skill-manager`.
+This installs into `~/.codex/skills/codex-skill-manager`. Restart Codex after installation.
 
-### From a local clone
+### Manual install (Codex)
 
 ```bash
 cp -R codex-skill-manager ~/.codex/skills/
 ```
+
+Restart Codex after manual installation.
 
 ## Usage
 
